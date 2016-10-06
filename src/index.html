@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <script type="text/javascript" src="https://rawgit.com/riot/riot/master/riot%2Bcompiler.js"></script>
+    <script data-require="mocha@*" data-semver="1.13.0" src="//cdnjs.cloudflare.com/ajax/libs/mocha/1.13.0/mocha.js"></script>
+    <script data-require="mocha-chai@1.9.0" data-semver="1.9.0" src="//cdnjs.cloudflare.com/ajax/libs/chai/1.9.0/chai.js"></script>  
+    <link data-require="mocha@*" data-semver="1.13.0" rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/mocha/1.13.0/mocha.css" />
+    
+    <script type="riot/tag" src="hello.tag"></script>
+
+  </head>
+
+  <body>
+    <div id="mocha"></div>
+    <script>mocha.setup('bdd')</script>
+    <script src="hello-spec.js"></script>
+    <script>mocha.run()</script>
+  </body>
+
+</html>

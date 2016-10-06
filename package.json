@@ -1,0 +1,28 @@
+{
+  "name": "minimalistic-riotjs-testing",
+  "version": "1.0.0",
+  "description": "Minimalistic Riot.js Testing in browser.",
+  "main": "index.js",
+  "scripts": {
+    "start": "light-server -c .lightserverrc",
+    "test": "karma start"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },  
+  "keywords": [
+    "mocha",
+    "chai",
+    "riot",
+    "startkit"
+  ],
+  "author": "vitogit",
+  "license": "MIT",
+  "devDependencies": {
+    "light-server": "^1.1.5",
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5",
+    "riot": "^2.3.15"
+  }
+}
